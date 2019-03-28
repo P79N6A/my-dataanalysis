@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.aliyun.odps:odps-sdk-mapred:0.27.2-public">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.aliyun.odps/odps-sdk-mapred/0.27.2-public/c3cf2d634d49d5946e417d44c7b5f2752a708d70/odps-sdk-mapred-0.27.2-public.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.aliyun.odps/odps-sdk-mapred/0.27.2-public/45a28bb778eb65517cf32c5182a8234f2ac3edfb/odps-sdk-mapred-0.27.2-public-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

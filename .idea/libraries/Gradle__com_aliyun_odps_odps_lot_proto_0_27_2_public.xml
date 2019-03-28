@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.aliyun.odps:odps-lot-proto:0.27.2-public">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.aliyun.odps/odps-lot-proto/0.27.2-public/c25c4b6153d2d1766059c9a51de2ca5f175c1ae1/odps-lot-proto-0.27.2-public.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.aliyun.odps/odps-lot-proto/0.27.2-public/4b3892ef07066f76505238c88c124817f7c5009b/odps-lot-proto-0.27.2-public-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.aliyun.odps:odps-mapred-bridge:0.27.2-public">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.aliyun.odps/odps-mapred-bridge/0.27.2-public/9c0148babadd2a320eb8a3673341809e9cddafe2/odps-mapred-bridge-0.27.2-public.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.aliyun.odps/odps-mapred-bridge/0.27.2-public/bb61586417c1b1c63e5c0deb8be6375b344477bf/odps-mapred-bridge-0.27.2-public-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.alibaba:fastjson:1.2.28.odps">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.alibaba/fastjson/1.2.28.odps/c1c02eca64fb5660a4f3f2cda9b7eacc9308db4d/fastjson-1.2.28.odps.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.alibaba/fastjson/1.2.28.odps/2660fac0ae7e4ba5d52042ed51f96e4e8ac004f4/fastjson-1.2.28.odps-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

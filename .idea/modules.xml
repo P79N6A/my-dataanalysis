@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/paopao-DataAnalysis.iml" filepath="$PROJECT_DIR$/.idea/modules/paopao-DataAnalysis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/paopao-DataAnalysis_main.iml" filepath="$PROJECT_DIR$/.idea/modules/paopao-DataAnalysis_main.iml" group="paopao-DataAnalysis" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/paopao-DataAnalysis_test.iml" filepath="$PROJECT_DIR$/.idea/modules/paopao-DataAnalysis_test.iml" group="paopao-DataAnalysis" />
+    </modules>
+  </component>
+</project>

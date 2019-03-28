@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.aliyun.odps:odps-sdk-lot:0.27.2-public">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.aliyun.odps/odps-sdk-lot/0.27.2-public/16c11b1fbc6c583fba25cff9797bd7b5a2b14159/odps-sdk-lot-0.27.2-public.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.aliyun.odps/odps-sdk-lot/0.27.2-public/f4a77b8c71df9421d7056e433c55dbea91e99c67/odps-sdk-lot-0.27.2-public-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

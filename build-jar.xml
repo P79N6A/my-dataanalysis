@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="DataAnalysis" basedir="." default="build">
+	
+	<property file="build.properties" />
+	
+	<property name="app.name" value="DataAnalysis" />
+	<property name="src.dir" value="src\main\java" />
+	<property name="dest.dir" value="target" />
+	<property name="classes.dir" value="target\jar\classes" />
+	<property name="lib.dir" value="libs" />
+
+	<path id="classpath">
+		<fileset dir="${lib.dir}" includes="**/*.jar">
+		</fileset>
+	</path>
+
+	<target name="clean" description="clean application">
+		<echo message="----------delete application----------" />
+		<delete file="${dest.dir}/${app.name}.jar">
+		</delete>
+		<delete dir="${classes.dir}">
+		</delete>
+	</target>
+
+	<target name="compile" depends="clean" description="compile java files">
+		<mkdir dir="${classes.dir}" />
+		<javac srcdir="${src.dir}" destdir="${classes.dir}" listfiles="yes" debug="${debug}" optimize="${optimize}"  encoding="UTF-8">
+			<include name="**/com/nicia/bocai/dataanalysis/common/**" />
+			<include name="**/com/nicia/bocai/dataanalysis/mapreduce/**" />
+			<include name="**/com/nicia/bocai/dataanalysis/table/**" />
+			<include name="**/com/nicia/bocai/dataanalysis/table/input**" />
+			<include name="**/com/nicia/bocai/dataanalysis/main/**" />
+			<include name="shutiao/dataanalysis/**" />
+			<classpath refid="classpath" />
+		</javac>
+		<copy todir="${classes.dir}">
+			<fileset dir="${src.dir}" excludes="**/*.java">
+			</fileset>
+		</copy>
+	</target>
+
+	<target name="build" depends="compile" description="make jar">
+		<jar destfile="${dest.dir}/${app.name}.jar">
+			<fileset dir="${classes.dir}" includes="**/*.class"/>
+		</jar>
+	</target>
+	
+</project>
